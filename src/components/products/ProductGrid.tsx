@@ -1,8 +1,8 @@
 'use client';
 
 import { useLocale } from 'next-intl';
-import { products } from '@/data/products';
-import type { Locale } from '@/data/products';
+import { products } from '@/constants/products';
+import type { Locale } from '@/constants/products';
 import ProductCard from './ProductCard';
 
 export default function ProductGrid() {

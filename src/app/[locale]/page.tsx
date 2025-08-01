@@ -1,20 +1,19 @@
-import { getTranslations } from 'next-intl/server';
-import HeroSection from '@/components/HeroSection';
-import ProductGrid from '@/components/ProductGrid';
-import Testimonials from '@/components/Testimonials';
-import Footer from '@/components/Footer';
-import Promotional from '@/components/Promotional';
-
-export default async function Home() {
+import Footer from '@/components/layout/Footer';
+import ProductGrid from '@/components/products/ProductGrid';
+import HeroSection from '@/components/sections/HeroSection';
+import Promotional from '@/components/sections/Promotional';
+import Testimonials from '@/components/sections/Testimonials';
+import {getTranslations} from 'next-intl/server';
+ 
+export default async function HomePage() {
   const t = await getTranslations('Home');
-
   return (
     <main>
-      <HeroSection />
-      <ProductGrid />
-      <Testimonials />
-      <Promotional />
-      <Footer />
+        <HeroSection />
+        <ProductGrid />
+        <Testimonials />
+        <Promotional />
+        <Footer />
     </main>
   );
 }

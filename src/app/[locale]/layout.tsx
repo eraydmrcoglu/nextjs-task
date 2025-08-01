@@ -1,37 +1,27 @@
-import type { Metadata } from 'next';
-import { notFound } from 'next/navigation';
-import '../globals.css';
-import Providers from '@/components/Providers';
+// app/[locale]/layout.tsx
+import { notFound } from 'next/navigation'
+import { ReactNode } from 'react'
+import Providers from '@/components/Providers'
 
-export const metadata: Metadata = {
-  title: 'Task',
-  description: 'Multilingual product landing page',
-};
+const locales = ['en', 'tr'] as const
 
-const locales = ['en', 'tr'];
+type Props = {
+  children: ReactNode
+  params: { locale: string }
+}
 
-export default async function RootLayout({
-  children,
-  params,
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  const { locale } = params;
+export default async function LocaleLayout({ children, params }: Props) {
+  const locale = params.locale
 
-  if (!locales.includes(locale)) {
-    notFound();
+  if (!locales.includes(locale as (typeof locales)[number])) {
+    notFound()
   }
 
-  const messages = (await import(`@/messages/${locale}.json`)).default;
+  const messages = (await import(`../../../messages/${locale}.json`)).default
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <body className="antialiased">
-        <Providers locale={locale} messages={messages}>
-          {children}
-        </Providers>
-      </body>
-    </html>
-  );
+    <Providers locale={locale} messages={messages}>
+      {children}
+    </Providers>
+  )
 }

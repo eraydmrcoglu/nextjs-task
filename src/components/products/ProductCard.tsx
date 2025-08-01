@@ -3,7 +3,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { Heart } from 'lucide-react';
 import Image from 'next/image';
-import type { Locale } from '@/data/products';
+import type { Locale } from '@/constants/products';
 import { toggleFavorite } from '@/store/slices/favoritesSlice';
 import { RootState } from '@/store';
 

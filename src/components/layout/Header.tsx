@@ -8,8 +8,8 @@ import { Moon, Sun, Heart } from 'lucide-react';
 import { useLocale } from 'next-intl';
 import { RootState } from '@/store';
 import { Button } from '@/components/ui/button';
-import FavoriteDrawer from '@/components/FavoriteDrawer';
-import { products } from '@/data/products';
+import FavoriteDrawer from '@/components/layout/FavoriteDrawer';
+import { products } from '@/constants/products';
 
 const locales = [
   { code: 'tr', flag: '/flags/tr.svg', alt: 'Türkçe' },
