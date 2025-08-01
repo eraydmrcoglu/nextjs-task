@@ -1,10 +1,4 @@
 <div align="center">
-  <br />
-  <a href="#" target="_blank">
-    <img src="public/readme/hero.png" alt="Landing Page Banner" width="100%" />
-  </a>
-  <br />
-
   <div>
     <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" />
     <img src="https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
