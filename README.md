@@ -1,36 +1,107 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <div>
+    <img src="https://img.shields.io/badge/-Next.JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=black" />
+    <img src="https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/-shadcn/ui-EF4444?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+    <img src="https://img.shields.io/badge/-FramerMotion-1E90FF?style=for-the-badge" />
+  </div>
 
-## Getting Started
+  <h3 align="center">🌍 Multilingual Product Landing Page – Built with Next.js 15</h3>
 
-First, run the development server:
+  <div align="center">
+    A modern, SEO-optimized, multilingual product page powered by external data and reusable UI components.
+  </div>
+</div>
+
+---
+
+## 📋 Table of Contents
+
+1. [🤖 Introduction](#-introduction)  
+2. [⚙️ Tech Stack](#-tech-stack)  
+3. [🔋 Features](#-features)  
+4. [⚡ Getting Started](#-getting-started)  
+5. [🧠 Favorites System](#-favorites-system)  
+6. [🌐 Language Support](#-language-support)  
+
+---
+
+## 🤖 Introduction
+
+This project is a dynamic product landing page built with the latest frontend technologies. It supports multiple languages via URL routing, utilizes external JSON data, supports dark mode, and includes a favorites system to enhance user engagement.
+
+> Bonus: Smooth animations with Framer Motion, and clean code formatting with ESLint & Prettier.
+
+---
+
+## ⚙️ Tech Stack
+
+- **[Next.js 15+](https://nextjs.org/)** – App Router, Server/Client components, SEO support  
+- **[TypeScript](https://www.typescriptlang.org/)** – Type-safe codebase  
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first styling  
+- **[shadcn/ui](https://ui.shadcn.com/)** – Pre-built accessible UI components  
+- **[Framer Motion](https://www.framer.com/motion/)** – Page transitions & micro-interactions  
+- **[i18n](https://www.i18next.com)** – Static JSON-based language switching with `/en`, `/tr`  
+- **[Jest](https://jestjs.io)** – Unit testing
+
+---
+
+## 🔋 Features
+
+✅ SEO-ready with dynamic metadata, OpenGraph, Twitter card, JSON-LD  
+✅ Multilingual support (`/en`, `/tr`)  
+✅ External data simulation (mock CMS)  
+✅ Sections: Hero, Features, Testimonials, Pricing, Footer  
+✅ Favorites system (localStorage + badge in Header)  
+✅ Dark mode toggle  
+✅ Framer Motion animations  
+✅ TypeScript + ESLint + Prettier  
+
+---
+
+## ⚡ Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- npm or yarn
+
+### Install
+
+```bash
+git clone https://github.com/eraydmrcoglu/nextjs-task.git
+cd nextjs-task
+npm install
+```
+
+### Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Favorites System
 
-## Learn More
+Users can "favorite" any product via the heart icon ❤️  
+Favorites are stored in **localStorage** and shown as a badge in the Header.
 
-To learn more about Next.js, take a look at the following resources:
+> You can easily customize or extend this feature using Zustand, Redux, or persistent cookies.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Language Support
 
-## Deploy on Vercel
+```text
+/en → English  
+/tr → Turkish
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Language switcher is handled via routing and translation files (`en.json`, `tr.json`).
