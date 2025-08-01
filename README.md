@@ -73,8 +73,8 @@ Make sure you have the following installed:
 ### Install
 
 ```bash
-git clone https://github.com/your-username/product-landing-page.git
-cd product-landing-page
+git clone https://github.com/eraydmrcoglu/nextjs-task.git
+cd nextjs-task
 npm install
 ```
 
