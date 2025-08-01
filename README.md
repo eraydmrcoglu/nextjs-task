@@ -4,7 +4,6 @@
     <img src="https://img.shields.io/badge/-Tailwind-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" />
     <img src="https://img.shields.io/badge/-shadcn/ui-EF4444?style=for-the-badge" />
     <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-    <img src="https://img.shields.io/badge/-i18n-MultiLang-8B5CF6?style=for-the-badge" />
     <img src="https://img.shields.io/badge/-FramerMotion-1E90FF?style=for-the-badge" />
   </div>
 
@@ -19,12 +18,12 @@
 
 ## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)  
-2. ⚙️ [Tech Stack](#tech-stack)  
-3. 🔋 [Features](#features)  
-4. ⚡ [Getting Started](#getting-started)  
-5. 🧠 [Favorites System](#favorites-system)  
-6. 📌 [License](#license)  
+1. [🤖 Introduction](#-introduction)  
+2. [⚙️ Tech Stack](#-tech-stack)  
+3. [🔋 Features](#-features)  
+4. [⚡ Getting Started](#-getting-started)  
+5. [🧠 Favorites System](#-favorites-system)  
+6. [🌐 Language Support](#-language-support)  
 
 ---
 
