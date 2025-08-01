@@ -34,7 +34,6 @@ export default function ProductCard({ product, locale }: Props) {
       key={product.id}
       className="group bg-white dark:bg-zinc-800 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col transform hover:-translate-y-1 hover:scale-[1.01]"
     >
-      {/* Görsel Alanı ve Kalp Butonu */}
       <div className="relative w-full h-72 overflow-hidden">
         <Image
           src={product.image}
@@ -54,7 +53,6 @@ export default function ProductCard({ product, locale }: Props) {
         </button>
       </div>
 
-      {/* Metin İçeriği */}
       <div className="p-5 flex flex-col justify-between flex-grow space-y-3">
         <h3 className="text-lg font-semibold text-zinc-900 dark:text-white line-clamp-1">
           {translation.name}
