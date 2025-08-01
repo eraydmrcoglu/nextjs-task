@@ -42,8 +42,8 @@ This project is a dynamic product landing page built with the latest frontend te
 - **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first styling  
 - **[shadcn/ui](https://ui.shadcn.com/)** – Pre-built accessible UI components  
 - **[Framer Motion](https://www.framer.com/motion/)** – Page transitions & micro-interactions  
-- **i18n** – Static JSON-based language switching with `/en`, `/tr`  
-- **Jest** – Unit testing
+- **[i18n](https://www.i18next.com)** – Static JSON-based language switching with `/en`, `/tr`  
+- **[Jest](https://jestjs.io)** – Unit testing
 
 ---
 
