@@ -1,0 +1,29 @@
+{
+  "Home": {
+    "title": "Welcome!",
+    "description": "This is a multilingual product page.",
+    "cta": "Get Started"
+  },
+  "Hero": {
+    "title": "Stand Out with Your Product",
+    "subtitle": "Showcase your product and let customers discover you.",
+    "cta": "Get Started Now"
+  },
+  "Favorites": {
+    "title": "Favorites",
+    "empty": "No favorite products yet.",
+    "remove": "Remove from favorites"
+  },
+  "Promotional": {
+    "titleHighlight": "Don’t miss out",
+    "titleRest": "on our discounted products.",
+    "description": "Don’t miss out on amazing discounts—shop now before they’re gone!",
+    "checkButton": "Check out the products",
+    "declineButton": "No thanks",
+    "close": "Close",
+    "imageAlt": "Promotional image"
+  },
+  "Footer": {
+    "allRightsReserved": "All rights reserved."
+  }
+}

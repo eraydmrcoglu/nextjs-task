@@ -1,0 +1,29 @@
+{
+  "Home": {
+    "title": "Hoş geldiniz!",
+    "description": "Bu çok dilli bir ürün sayfasıdır.",
+    "cta": "Başla"
+  },
+  "Hero": {
+    "title": "Ürününle Fark Yarat",
+    "subtitle": "Ürününü şimdi tanıt, müşterilerin seni keşfetsin.",
+    "cta": "Hemen Başla"
+  },
+  "Favorites": {
+  "title": "Favoriler",
+  "empty": "Henüz favori ürün eklenmedi.",
+  "remove": "Favoriden çıkar"
+  },
+  "Promotional": {
+    "titleHighlight": "Kaçırmayın",
+    "titleRest": "indirimli ürünlerimizi.",
+    "description": "Harika indirimleri kaçırmayın — tükenmeden alışveriş yapın!",
+    "checkButton": "Ürünlere göz at",
+    "declineButton": "Hayır teşekkürler",
+    "close": "Kapat",
+    "imageAlt": "Tanıtım görseli"
+  },
+  "Footer": {
+    "allRightsReserved": "Tüm hakları saklıdır."
+  }
+}
