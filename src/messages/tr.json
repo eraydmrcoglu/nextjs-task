@@ -10,9 +10,9 @@
     "cta": "Hemen Başla"
   },
   "Favorites": {
-  "title": "Favoriler",
-  "empty": "Henüz favori ürün eklenmedi.",
-  "remove": "Favoriden çıkar"
+    "title": "Favoriler",
+    "empty": "Henüz favori ürün eklenmedi.",
+    "remove": "Favoriden çıkar"
   },
   "Promotional": {
     "titleHighlight": "Kaçırmayın",

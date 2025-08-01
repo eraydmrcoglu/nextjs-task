@@ -66,8 +66,8 @@ export default function Header() {
         </Button>
 
         {locales
-          .filter(loc => loc.code !== currentLocale)
-          .map(loc => (
+          .filter((loc) => loc.code !== currentLocale)
+          .map((loc) => (
             <Button
               key={loc.code}
               variant="ghost"

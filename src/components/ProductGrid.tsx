@@ -8,7 +8,7 @@ import ProductCard from './ProductCard';
 export default function ProductGrid() {
   const locale = useLocale() as Locale;
 
-  const filteredProducts = products.filter(product => {
+  const filteredProducts = products.filter((product) => {
     if (locale === 'tr') return product.currency === 'TRY';
     if (locale === 'en') return product.currency === 'GBP';
     return false;
@@ -20,7 +20,7 @@ export default function ProductGrid() {
         {locale === 'tr' ? 'Popüler Ürünler' : 'Popular Products'}
       </h2>
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-7xl mx-auto">
-        {filteredProducts.map(product => (
+        {filteredProducts.map((product) => (
           <ProductCard key={product.id} product={product} locale={locale} />
         ))}
       </div>

@@ -33,7 +33,7 @@ export default function FavoriteDrawer({
   const favorites = useSelector((state: RootState) => state.favorites.ids);
 
   const favoriteProducts = products.filter((p: ProductType) =>
-    favorites.includes(p.id)
+    favorites.includes(p.id),
   );
 
   return (
